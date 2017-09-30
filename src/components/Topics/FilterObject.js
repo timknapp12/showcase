@@ -9,21 +9,20 @@ export default class FilterObject extends Component {
         this.state = {
             employees: [
                 {
-                    color: 'white',
-                    sound: 'loud',
-                    height: 'short'
+                  name: 'Jimmy Joe',
+                  title: 'Hack0r',
+                  age: 12,
                 },
                 {
-                    color: 'blue',
-                    sound: 'soft',
-                    height: 'medium'
+                  name: 'Jeremy Schrader',
+                  age: 24,
+                  hairColor: 'brown'
                 },
                 {
-                    color: 'black',
-                    sound: "whisper",
-                    height: "midget"
+                  name: 'Carly Armstrong',
+                  title: 'CEO',
                 }
-            ],
+              ],
 
             userInput: '',
             filteredAray: []
